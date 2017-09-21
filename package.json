@@ -1,0 +1,27 @@
+{
+	"name": "m1-cours-live",
+	"version": "1.0.0",
+	"description": "Mon super cours de ouf",
+	"scripts": {
+		"start": "webpack-dev-server",
+		"build": "NODE_ENV=production webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xseignard/m1-cours-live.git"
+	},
+	"author": "Xavier Seignard <xavier.seignard@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/xseignard/m1-cours-live/issues"
+	},
+	"homepage": "https://github.com/xseignard/m1-cours-live#readme",
+	"devDependencies": {
+		"css-loader": "^0.28.7",
+		"html-webpack-plugin": "^2.30.1",
+		"style-loader": "^0.18.2",
+		"uglifyjs-webpack-plugin": "^1.0.0-beta.2",
+		"webpack": "^3.6.0",
+		"webpack-dev-server": "^2.8.2"
+	}
+}
